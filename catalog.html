@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="#">Гостиница</a></li>
+          </ul>
+          <div class="logo">
+            <a><img src="http://placehold.it/138x70" width="138" height="70" alt="Логотип"></a>
+          </div>
+        </nav>          
+      </div>
+    </header>
+    <main class="container">
+      <section class="settings">
+        <form action="">
+          <fieldset class="settings_infrastructure">
+            <legend>Инфраструктура</legend>
+            <label><input type="checkbox">Бассейн</label>
+            <label><input type="checkbox">Парковка</label>
+            <label><input type="checkbox">Wi-Fi</label>
+          </fieldset>
+          <fieldset class="settings_type">
+            <legend>Тип жилья</legend>
+            <label><input type="checkbox">Гостиница</label>
+            <label><input type="checkbox">Мотель</label>
+            <label><input type="checkbox">Апартаменты</label>
+          </fieldset>
+          <fieldset class="settings_cost">
+            <legend>Стоимость в сутки (Р):</legend>
+            <input type="text" value="от 0">
+            <input type="text" value="до 3000">
+            <div class="settings_cost_range">
+              <div class="settings_cost_range_line"><img src="http://placehold.it/219x4" width="219" height="4"></div>
+              <div class="settings_cost_range_circle1"><img src="http://placehold.it/21x21" width="21" height="21"></div>
+              <div class="settings_cost_range_circle2"><img src="http://placehold.it/21x21" width="21" height="21"></div>
+            </div>
+            <input type="submit" value="Показать">
+          </fieldset>
+        </form>
+      </section>
+      <section class="sort">
+        <b>Найдено: <span>3</span></b>
+        <p>Сортировка:</p>
+        <ul>
+          <li>По цене</li>
+          <li>По типу</li>
+          <li>По рейтингу</li>
+        </ul>
+        <div class="sort_arrows">
+          <img src="http://placehold.it/11x11" width="11" height="11">
+          <img src="http://placehold.it/11x11" width="11" height="11">
+        </div>
+      </section>
+      <section class="content">
+        <ul>
+          <li>
+            <article>
+              <a href="#"><img src="http://placehold.it/136x91" width="136" height="91"></a>
+              <div class="content_center">
+                <div class="content_center_up">
+                  <h2>Amara Resort & Spa</h2>
+                  <div class="content_center_up_bottom">
+                    <span class="content_center_up_left">Гостиница</span>
+                    <span class="content_center_up_right">От 4000 Р.</span>
+                  </div>        
+                </div>
+                <div class="content_center_down">
+                  <a href="#">Подробнее</a>
+                  <a href="#">Забронировать</a>
+                </div>
+              </div>
+              <div class="rating">
+                  <img src="http://placehold.it/91x18" width="91" height="18" class="rating_up">
+                  <p class="rating_down">Рейтинг: 8,5</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <a href="#"><img src="http://placehold.it/136x91" width="136" height="91"></a>
+              <div class="content_center">
+                <div class="content_center_up">
+                  <h2>Desert Quail Inn</h2>
+                  <div class="content_center_up_bottom">
+                    <span class="content_center_up_left">Мотель</span>
+                    <span class="content_center_up_right">От 3000 Р.</span>
+                  </div>        
+                </div>
+                <div class="content_center_down">
+                  <a href="#">Подробнее</a>
+                  <a href="#">Забронировать</a>
+                </div>
+              </div>
+              <div class="rating">
+                  <img src="http://placehold.it/91x18" width="91" height="18" class="rating_up">
+                  <p class="rating_down">Рейтинг: 8,9</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <a href="#"><img src="http://placehold.it/136x91" width="136" height="91"></a>
+              <div class="content_center">
+                <div class="content_center_up">
+                  <h2>Villas at Poco Diablo</h2>
+                  <div class="content_center_up_bottom">
+                    <span class="content_center_up_left">Апартаменты</span>
+                    <span class="content_center_up_right">От 2000 Р.</span>
+                  </div>        
+                </div>
+                <div class="content_center_down">
+                  <a href="#">Подробнее</a>
+                  <a href="#">Забронировать</a>
+                </div>
+              </div>
+              <div class="rating">
+                  <img src="http://placehold.it/91x18" width="91" height="18" class="rating_up">
+                  <p class="rating_down">Рейтинг: 9,2</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main_footer">
+      <p>#visitsedona</p>
+      <div class="social_network">
+        <ul>
+          <li><img src="http://placehold.it/48x50" width="48" height="50"></li>
+          <li><img src="http://placehold.it/48x50" width="48" height="50"></li>
+          <li><img src="http://placehold.it/48x50" width="48" height="50"></li>
+        </ul> 
+      </div>
+      <div class="author">
+        <p>website by</p>
+        <img src="http://placehold.it/113x39" width="113" height="39">
+      </div>
+    </footer>  
+
+  </body>
+</html>
